@@ -68,20 +68,20 @@ function numeralize(num) {
 }
 
 // Some tests using expect library: https://github.com/mjackson/expect 
-expect(numeralize(1).toEqual('I');
-expect(numeralize(2).toEqual('II');
-expect(numeralize(3).toEqual('III');
-expect(numeralize(5)).toEqual('V');
-expect(numeralize(9)).toEqual('IX');
-expect(numeralize(12)).toEqual('XII');
-expect(numeralize(16)).toEqual('XVI');
-expect(numeralize(29)).toEqual('XXIX');
-expect(numeralize(44)).toEqual('XLIV');
-expect(numeralize(45)).toEqual('XLV');
-expect(numeralize(68)).toEqual('LXVIII');
-expect(numeralize(83)).toEqual('LXXXIII');
-expect(numeralize(99)).toEqual('XCIX');
-expect(numeralize(500)).toEqual('D');
-expect(numeralize(501)).toEqual('DI');
-expect(numeralize(3999)).toEqual('MMMCMXCIX');
+expect(numeralize(1).toEqual('I'));
+expect(numeralize(2).toEqual('II'));
+expect(numeralize(3).toEqual('III'));
+expect(numeralize(5)).toEqual('V'));
+expect(numeralize(9)).toEqual('IX'));
+expect(numeralize(12)).toEqual('XII'));
+expect(numeralize(16)).toEqual('XVI'));
+expect(numeralize(29)).toEqual('XXIX'));
+expect(numeralize(44)).toEqual('XLIV'));
+expect(numeralize(45)).toEqual('XLV'));
+expect(numeralize(68)).toEqual('LXVIII'));
+expect(numeralize(83)).toEqual('LXXXIII'));
+expect(numeralize(99)).toEqual('XCIX'));
+expect(numeralize(500)).toEqual('D'));
+expect(numeralize(501)).toEqual('DI'));
+expect(numeralize(3999)).toEqual('MMMCMXCIX'));
 
