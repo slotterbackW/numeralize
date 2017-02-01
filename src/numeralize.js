@@ -47,7 +47,6 @@ function numeralize(num) {
         	n = n % d.value;
         }
       } else if ( di % 2 == 0 && di > 0) {
-        console.log(ds[di - 1]);
         if ( n >= (ds[di - 1].value - d.value) ) {
           result = result + d.name + ds[di - 1].name;
           n = n % (ds[di - 1].value - d.value);
