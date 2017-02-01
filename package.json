@@ -1,0 +1,22 @@
+{
+  "name": "numeralize",
+  "version": "1.0.0",
+  "description": "Turn integers &lt; 3999 into roman numerals.",
+  "main": "numeralize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slotterbackW/numeralize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slotterbackW/numeralize/issues"
+  },
+  "homepage": "https://github.com/slotterbackW/numeralize#readme",
+  "dependencies": {
+    "expect": "^1.20.2"
+  }
+}
