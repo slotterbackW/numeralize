@@ -16,7 +16,7 @@ const numerals = {
 	1000: 'M'
 }
 
-function numeralize(num) {
+const numeralize = (num) => {
 	const divisors = Object.keys(numerals);
 	let di = divisors.length - 1;
 	let result = [];
